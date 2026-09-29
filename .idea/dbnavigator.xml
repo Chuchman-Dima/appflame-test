@@ -74,6 +74,13 @@ FROM employees;]]></console>
     <connection id="3a7f167c-a1ff-453c-a3e3-ed6442787269" />
     <connection id="fd1c84d1-320e-4f07-9e49-6873c8b3014f" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="3a7f167c-a1ff-453c-a3e3-ed6442787269" dataset="public.employees" active-filter-id="493c4f62-c174-4ccf-b1fa-a4399269f780">
+      <filter id="493c4f62-c174-4ccf-b1fa-a4399269f780" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+  </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
